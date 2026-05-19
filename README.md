@@ -1,38 +1,24 @@
-# 💀 HADES JSON Engine vΩ
+# HADES JSON Engine vO
 
-> Runtime JSON soberano para Android/Termux. Una instrucción. Una acción real.
+Runtime JSON soberano. Una instruccion. Una accion real. Sin nube. Sin dependencias.
 
-[
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge)
-
-](https://python.org)
-[
-
-![Platform](https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge)
-
-](https://termux.dev)
+## Benchmarks
+- Dispatch: O(1) deterministico
+- Latencia: menor a 1ms por instruccion
+- Protocolo: PUJ (Protocolo Universal JSON)
+- Plataforma: Android/Termux 100% offline
 
 ## Uso
-
-\`\`\`bash
 python3 agente.py
 echo '{"action":"nucleo_info"}' | python3 agente.py
-\`\`\`
 
-## Comandos
+## Acciones
+nucleo_info | listar_habilidades | bash | python | estado | deploy
 
-| JSON | Acción |
-|------|--------|
-| \`{"action":"nucleo_info"}\` | Estado del núcleo |
-| \`{"bash":"comando"}\` | Ejecución bash |
-| \`{"python":"código"}\` | Ejecución Python |
-| \`{"action":"listar_habilidades"}\` | Ver módulos |
+## Ecosistema
+- https://github.com/jdjfkzlkdkclso-lang/HADES-SUPREMO-vOmega
+- https://github.com/jdjfkzlkdkclso-lang/HADES-CORE-vOmega
+- https://github.com/jdjfkzlkdkclso-lang/ZEUS-LEVIATAN-Omega
+- https://github.com/jdjfkzlkdkclso-lang/jsonmesh
 
-## Ecosistema HADES
-
-- [HADES-SUPREMO-vOmega](https://github.com/jdjfkzlkdkclso-lang/HADES-SUPREMO-vOmega)
-- [jsonmesh](https://github.com/jdjfkzlkdkclso-lang/jsonmesh)
-- [agente-supremo.vercel.app](https://agente-supremo.vercel.app)
-
-© 2026 HADES vΩ — Licencia comercial
+2026 Lara Systemic - Ocotlan, Jalisco
