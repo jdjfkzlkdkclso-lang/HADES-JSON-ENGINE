@@ -1,24 +1,40 @@
-# HADES JSON Engine vO
+<div align="center">
 
-Runtime JSON soberano. Una instruccion. Una accion real. Sin nube. Sin dependencias.
+# 🔱 hades-json-engine
 
-## Benchmarks
-- Dispatch: O(1) deterministico
-- Latencia: menor a 1ms por instruccion
-- Protocolo: PUJ (Protocolo Universal JSON)
-- Plataforma: Android/Termux 100% offline
+**Motor JSON de alto rendimiento para protocolo universal PUJ**
 
-## Uso
-python3 agente.py
-echo '{"action":"nucleo_info"}' | python3 agente.py
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20%7C%20Termux-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-## Acciones
-nucleo_info | listar_habilidades | bash | python | estado | deploy
+*Lara Systemic · Ocotlan, Jalisco · 2026*
 
-## Ecosistema
-- https://github.com/jdjfkzlkdkclso-lang/HADES-SUPREMO-vOmega
-- https://github.com/jdjfkzlkdkclso-lang/HADES-CORE-vOmega
-- https://github.com/jdjfkzlkdkclso-lang/ZEUS-LEVIATAN-Omega
-- https://github.com/jdjfkzlkdkclso-lang/jsonmesh
+</div>
 
-2026 Lara Systemic - Ocotlan, Jalisco
+---
+
+## ⚡ Overview
+
+Motor JSON de alto rendimiento para protocolo universal PUJ
+
+## 🚀 Quick Start
+
+```bash
+node index.js
+```
+
+## 📦 Ecosystem
+
+| Repo | Role |
+|------|------|
+| [hades-core-vomega](https://github.com/jdjfkzlkdkclso-lang/hades-core-vomega) | Motor C ABI 195k tx/s |
+| [hades-bot-premium](https://github.com/jdjfkzlkdkclso-lang/hades-bot-premium) | Bot Telegram + Web Terminal |
+| [hades-saas](https://github.com/jdjfkzlkdkclso-lang/hades-saas) | API Fastify multi-tier |
+| [hades-antifraude](https://github.com/jdjfkzlkdkclso-lang/hades-antifraude) | Detector de fraude crypto |
+| [hades-agi-supreme](https://github.com/jdjfkzlkdkclso-lang/hades-agi-supreme) | Agente AGI con habilidades |
+| [hades-autonomous](https://github.com/jdjfkzlkdkclso-lang/hades-autonomous) | Sistema autónomo supervisado |
+
+## 📄 License
+
+MIT © 2026 Lara Systemic

@@ -1,5 +1,13 @@
+node_modules/
+venv/
+venv_hades/
+hades_env/
+*.so
+*.log
+logs/
+vault.hades
+.env
+data/ledger.json
 __pycache__/
 *.pyc
-.env
-registrar.json
-/sdcard/
+tmp/
